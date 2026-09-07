@@ -1,0 +1,17 @@
+.layoutClass{
+
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    height: 100vh;
+}
+
+.layoutMain{
+
+    overflow: auto;
+    min-height: 0;
+    /* background-color: rgb(85, 76, 76); */
+}
+.layoutMain.dark{
+    background-color: rgb(85, 76, 76);
+}
+

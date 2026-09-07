@@ -1,0 +1,71 @@
+.favoriteCard{
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid hsl(214, 63%, 85%);
+  padding: 16px;
+  box-shadow: 0 2px 8px black;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+  
+.favoriteImg{
+
+    width: 100%;
+    height:200px;
+    object-fit: contain;
+}
+
+.contentf{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.favoriteCard:hover {
+  transform: translateY(-4px);          
+  box-shadow: 0 8px 16px gray;
+}
+
+
+
+
+.titlef {
+  font-size: 15px;
+  color: #1e293b;
+  
+}
+
+
+.pricef {
+  font-size: 18px;
+  color:  var(--mainColor);                    
+}
+
+
+.remove {
+  position:absolute;
+  bottom: 12px;
+  right: 12px;
+  background:white;
+  border: 1px solid gainsboro;
+  height: 25px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px black;
+  transition: transform 0.15s ease;
+}
+
+.remove:hover {
+  transform: scale(1.1);
+  background-color: var(--mainColor);
+}

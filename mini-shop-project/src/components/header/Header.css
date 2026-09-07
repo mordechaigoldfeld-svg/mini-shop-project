@@ -1,0 +1,71 @@
+.HeaderClass{
+
+    /* background-color: var(--mainColor); */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border-bottom: 4px solid var(--mainColor);
+    border-top: 4px solid var(--mainColor);
+}
+
+.imgl{
+
+    height: 100%;
+    width: 20%;
+}
+
+.links{
+
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.link{
+
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.link:hover{
+
+    color:blue;
+}
+
+span{
+
+    color: black;
+    font-weight: bold;
+    
+}
+
+.ligthButton{
+
+    border-radius: 6px;
+    width: 35px;
+    height: 30px;
+    border: none;
+    background-color: rgb(148, 223, 238);
+    box-shadow: 10px 10px 10px rgb(159, 153, 153);
+
+}
+
+.ligthButton:hover{
+
+    background-color:rgb(51, 154, 217); ;
+}
+
+
+.ligthButton.dark{
+    
+    background-color: rgb(1, 72, 92);
+
+}
+
+.ligthButton.dark:hover{
+
+    background-color:rgb(123, 218, 232); ;
+}

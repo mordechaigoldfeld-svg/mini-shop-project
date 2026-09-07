@@ -1,0 +1,30 @@
+.footerClass{
+
+    background-color: rgb(21, 196, 202);
+}
+
+
+.linksf{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    /* align-items: center; */
+    
+}
+
+
+
+
+
+.linkf{
+    
+    text-decoration: none;
+    color: white;
+}
+
+.linkf:hover{
+
+    color: blue;
+}

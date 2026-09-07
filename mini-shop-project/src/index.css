@@ -1,0 +1,11 @@
+:root{
+  
+  --mainColor:rgb(21, 196, 202);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+

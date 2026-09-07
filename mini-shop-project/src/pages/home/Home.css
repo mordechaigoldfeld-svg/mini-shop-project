@@ -1,0 +1,10 @@
+.mainGrid{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 100%;
+}
+.productOverflow{
+
+    overflow: auto;
+    min-width: 0;
+}
